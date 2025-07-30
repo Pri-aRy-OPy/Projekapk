@@ -1,0 +1,26 @@
+# Direktori dependensi Node.js
+# Folder ini berisi semua library yang diinstal dan ukurannya besar.
+# Bisa dibuat ulang kapan saja dengan `npm install`.
+/node_modules
+
+# Berkas variabel lingkungan.
+# Jika Anda membuat berkas .env untuk testing lokal, berkas ini
+# akan berisi TOKEN dan KUNCI API Anda. Sangat rahasia.
+.env
+
+# Kunci Akun Layanan Firebase (Service Account Key)
+# INI ADALAH BERKAS YANG SANGAT RAHASIA DAN TIDAK BOLEH DIUNGGAH.
+# Sesuaikan namanya jika Anda menggunakan nama lain.
+firebase-service-key.json
+serviceAccountKey.json
+*-key.json
+
+# Berkas log yang dibuat otomatis
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Berkas cache sistem operasi
+.DS_Store
+Thumbs.db
+
